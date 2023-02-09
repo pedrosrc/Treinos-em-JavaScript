@@ -1,14 +1,25 @@
-function Calcular(){
-    let peso = document.getElementById('peso').value
-    let altura = document.getElementById('altura').value
-    let resp = document.getElementById('res')
-    let imc = ''
-    if(peso.length.value <= 0 || altura.length.value <=0 ){
-        resp.innerHTML("Digite seu peso ou altura corretamente!")
+
+
+function Calcular (){
+    const pesoInput = document.querySelector('input#peso')
+    const alturaInput = document.querySelector('input#altura')
+    const resp = document.querySelector('div#res')
+    
+    
+    const peso = +pesoInput.value.replace(",", ".");
+    const altura = +alturaInput.value.replace(",", ".");
+    
+    if(peso <= 0 && altura <=0){
+        resp.innerHTML+=('Digite seus dados corretamente!')
     }else{
-       
-        imc = peso/(altura * altura)
-        resp.innerHTML=(imc)
-        //return imc
+        const imc = (peso / (altura * altura)).toFixed(2)
+        resp.innerHTML=(`Seu imc ${imc}`)
+    }
+}
+
+function Limpar (){
+    if(Calcular){
+    resp.innerHTML=""
+    return
     }
 }

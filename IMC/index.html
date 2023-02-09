@@ -8,21 +8,28 @@
     <title>Calculo de IMC</title>
 </head>
 <body>
-    <div class="container">
+    <main class="container">
         <h1>
             Seu IMC
         </h1>
         <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.</p>
         <div class="box">
-            <span>Seu Peso:</span>
-            <input type="number" placeholder="Digite Seu Peso em (KG)" id="peso">
-            <span>Sua Altura:</span>
-            <input type="num
-            " placeholder="Digite sua altura" id="altura">
+            <div class="put">
+                <span>Seu Peso:</span>
+                <input type="number" placeholder="Digite Seu Peso em (KG)" id="peso">
+            </div>
+            <div class="put">
+                <span>Sua Altura:</span>
+                <input type="num
+                " placeholder="Digite sua altura" id="altura">
+            </div>
         </div>
-        <button onclick="Calcular()">Calcular</button>
+        <div class="buttons">
+            <button onclick="Calcular()" id="calc">Calcular</button>
+            <button id="Clean" onclick="Limpar()">Limpar</button>
+        </div>
         <div id="res"></div>
-    </div>
+    </main>
     <script src="./assets/scripts/imc.js"></script>
 </body>
 </html>

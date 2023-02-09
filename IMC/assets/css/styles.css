@@ -1,24 +1,79 @@
-*{
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*, html{
     margin: 0;
     padding: 0;
 }
 body{
-    background-color:#383842;
+    background-color:#04090f;
 }
 .container{
-    background-color: black;
-    color: rgb(255, 255, 255);
-    width: 800px;
-    margin: auto;
+    background-color:#080808;
+    color:white;
+    max-width: 500px;
     padding: 20px;
     border-radius: 6px;
-    justify-content: center;     
-    align-items: center;
+    box-shadow: 0 0 18px 4px black;
 }
 h1{
     text-align: center;
+    font-family: 'Righteous', Arial, Helvetica, sans-serif;
+    
 }
 p{
     text-align: center;
     margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+
 }
+.box{
+    display: inline-block;
+}
+.box .put{
+    display: inline-flex;
+}
+span{
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+input{
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+    
+}
+button{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    position: relative;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    
+}
+button#calc{
+    background-color: #E6CB2E;
+}
+div#res{
+    text-align: center;
+
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+}
+
