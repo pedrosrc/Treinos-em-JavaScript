@@ -15,6 +15,10 @@ body{
     background-color:#080808;
     color:white;
     max-width: 500px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 14%;
+    position: inherit;
     padding: 20px;
     border-radius: 6px;
     box-shadow: 0 0 18px 4px black;
@@ -76,4 +80,44 @@ div#res{
     font-size: 18px;
 
 }
+@media screen and (max-width: 900px){
+    .container{
+        margin-top: 50%;
+    }
+    
+}
+@media screen and (max-width: 800px){
+    .container{
+        margin-top: 40%;
+    }
+    
+}
+@media screen and (max-width: 700px){
+    .container{
+        margin-top: 40%;
+    }
+    
+}
+@media screen and (max-width: 500px){
+    .container{
+        margin-top: 60%;
+        width: 350px;
+    }
+    
+}
+@media screen and (max-width: 400px){
+    .container{
+        margin-top: 60%;
+        width: 320px;
+    }
+    
+}
+@media screen and (max-width: 300px){
+    .container{
+        margin-top: 70%;
+        width: 320px;
+    }
+    
+}
+
 

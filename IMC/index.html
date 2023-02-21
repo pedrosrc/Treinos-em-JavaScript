@@ -8,7 +8,7 @@
     <title>Calculo de IMC</title>
 </head>
 <body>
-    <main class="container">
+    <div class="container">
         <h1>
             Seu IMC
         </h1>
@@ -21,15 +21,15 @@
             <div class="put">
                 <span>Sua Altura:</span>
                 <input type="num
-                " placeholder="Digite sua altura" id="altura">
+                " placeholder="Digite sua altura ex(1,70)" id="altura">
             </div>
         </div>
         <div class="buttons">
             <button onclick="Calcular()" id="calc">Calcular</button>
-            <button id="Clean" onclick="Limpar()">Limpar</button>
+            <button id="Clean" type="reset" onclick="Limpar()">Limpar</button>
         </div>
         <div id="res"></div>
-    </main>
+    </div>
     <script src="./assets/scripts/imc.js"></script>
 </body>
 </html>

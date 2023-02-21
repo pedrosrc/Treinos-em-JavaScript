@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+:root{
+    --font-tittle: 'Alfa Slab One', Arial, Helvetica, sans-serif;
+    --font-paraght: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    --cor01: #f6d61f;
+    --cor02: #000222;
+    --cor03: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#03051a;
+    ;
+}
+main {
+    height: 100vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.container{
+    border-radius: 5px;
+    padding: 20px;
+    background-color:black;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(58, 62, 65, 0.15) 0px 2px 6px 2px;
+    
+}
+h1{
+    font-family: var(--font-tittle);
+    color: var(--cor03);
+    font-weight: normal;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    background-color: var(--cor01);
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 7px;
+}
+p{
+    font-family: var(--font-paraght);
+    color: white;
+    font-size: 20px;
+}
+span{
+    font-family: var(--font-paraght);
+    color: white;
+    font-size: 20px;
+}
+.camp{
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    
+}
+.camp select{
+    border: none;
+    border-radius: 3px;
+    padding: 2px;
+}
+.camp input{
+    padding: 3px;
+    border-radius: 3px;
+    border: none;
+    width: 90px;
+}
