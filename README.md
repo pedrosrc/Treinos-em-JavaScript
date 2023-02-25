@@ -3,7 +3,7 @@
 
  ## Conversor de moeda com API
  <img src="./img/converta-ja.PNG" width="1000" align="center">
- <h4 align="center"> <a href="https://apenasopedro.github.io/Treinos-em-JavaScript/CONVERSOR_DE_MOEDA/">Confira Aqui</a> </h4>
+ <h4 align="center"> <a href="https://pedrosrc.github.io/Treinos-em-JavaScript/CONVERSOR_DE_MOEDA/">Confira Aqui</a> </h4>
  <p>Conversor de moedas em tempo real, utilizando as moedas: Real, Dólar e Euro.</p>
 <h2>Tecnologias Usadas:</h2>
 
@@ -15,7 +15,7 @@
 
  ## Cálculo de IMC
  <img src="./img/imc.PNG" width="1000" align="center">
- <h4 align="center"> <a href="https://apenasopedro.github.io/Treinos-em-JavaScript/IMC/">Confira Aqui</a> </h4>
+ <h4 align="center"> <a href="https://pedrosrc.github.io/Treinos-em-JavaScript/IMC/">Confira Aqui</a> </h4>
  <p>Cálculo de IMC (Indice de Massa Corporal)</p>
 <h2>Tecnologias Usadas:</h2>
 
